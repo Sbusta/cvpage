@@ -1,0 +1,269 @@
+{
+    "aboutMe": [{
+        "title": "SOBRE MÍ",
+        "description": "Desarrollador de software con alta adaptabilidad al trabajo en equipo, comprensión de los requisitos asignados para diseñar soluciones de software, investigador, responsable de establecer objetivos, cumplir logros y capaz de trabajar con o sin supervisión directa. Soy innovador y tengo facilidad para entender procesos de negocio, lo que me permite desarrollar aplicaciones con disposición para aprender. Soy disciplinado, y en mi tiempo libre toco el piano y a veces compongo mis propias canciones. También disfruto escuchar música, jugar tenis de mesa, ver series y películas, jugar videojuegos y juegos de rol como D&D."
+    }],
+    "workExperience": "EXPERIENCIA LABORAL",
+    "workExperienceList": [{
+        "company": "Talos Digital",
+        "position": "Desarrollador FrontEnd",
+        "date": "Julio 2020 - Julio 2021",
+        "location": "Medellín, Colombia",
+        "description-1": "Desarrollé la aplicación web interna para el manual web corporativo como desarrollador FrontEnd donde brindé soporte en temas de UX y accesibilidad utilizando la metodología Scrum. Reporté al Scrum Master y mantuvimos reuniones semanales con el Product Owner.",
+        "description-2": "Desarrollé una aplicación interna para la creación y gestión de formularios en el departamento de RRHH de la empresa donde brindé soporte en UX, optimización y control de datos utilizando la metodología Scrum. Reporté al Scrum Master y mantuvimos reuniones diarias con el Product Owner."
+    },
+    {
+        "company": "Corales Acuarimántima",
+        "position": "Desarrollador Web",
+        "date": "Abril 2023 - Mayo 2023",
+        "location": "Medellín, Colombia",
+        "description-1": "Diseñé y desarrollé el sitio web Coralesacuarimantima.org usando Wordpress, Spectra y DreamHost. Esta es una plataforma para mostrar la fundación Corales Acuariamantima, exhibir sus proyectos y actividades, y poder recibir donaciones para continuar sus investigaciones y preservar el área."
+    },
+    {
+        "company": "Astrolab-Bio",
+        "position": "Desarrollador Web",
+        "date": "Enero 2024 - Mayo 2024",
+        "location": "Medellín, Colombia",
+        "description-1": "Diseñé y desarrollé el sitio web Astrolab-bio.com.co usando WordPress y Hostinger. Esta es una plataforma para mostrar Astrolab Bio, exhibir sus proyectos y actividades, y poder vender sus productos."
+    },
+    {
+        "company": "Convexo",
+        "position": "Desarrollador Web",
+        "date": "Mayo 2024 - Julio 2024",
+        "location": "Medellín, Colombia",
+        "description-1": "Diseñé y desarrollé el sitio web convexorealestatelaw.com usando WordPress y Hostinger. Esta plataforma muestra Convexo, exhibe sus proyectos inmobiliarios, actividades legales y ofrece sus servicios para la venta."
+    },
+    {
+        "company": "Urbanik",
+        "position": "Desarrollador FullStack",
+        "date": "Enero 2024 - Noviembre 2024",
+        "location": "Medellín, Colombia",
+        "description-1": "Desarrollé la aplicación web Urbanik.co como desarrollador FrontEnd/FullStack y brindé soporte en temas de UX/UI y accesibilidad utilizando la metodología Scrum.",
+        "description-2": "Diseñé y desarrollé el sitio web convexorealestatelaw.com usando WordPress y Hostinger.",
+        "description-3": "Brindé consultoría personalizada a emprendedores como parte del proyecto de Iniciación Digital con la Cámara de Comercio y UNIMINUTO."
+    },
+    {
+        "company": "Uniminuto",
+        "position": "Consultor de Soporte TI",
+        "date": "Agosto 2024 - Noviembre 2024",
+        "location": "Medellín, Colombia",
+        "description-1": "Brindé consultoría personalizada a emprendedores como parte del proyecto de Iniciación Digital con la Cámara de Comercio y UNIMINUTO."
+    }],
+    "projectsAndResearch": "PROYECTOS E INVESTIGACIÓN",
+    "projectsAndResearchList": [{
+        "title": "Investigación: Sistemas de Gamificación",
+        "info": "Universidad Eafit, 2020",
+        "description": "Realicé investigación sobre sistemas y técnicas de Gamificación para la retención de usuarios, agregando un sistema de predicción a la plataforma para recomendar la técnica y sistema apropiado para cada usuario.",
+        "technologies": "Python, Javascript"
+    },
+    {
+        "title": "Investigación: Comportamiento del jugador en sistemas de microtransacciones",
+        "info": "Universidad Eafit, 2019",
+        "description": "Realicé investigación sobre el comportamiento de los jugadores en sistemas de microtransacciones para determinar cómo se ven afectados los usuarios y cómo funcionan los escenarios donde se implementan dichos sistemas, utilizando una simulación hecha con Vensim.",
+        "technologies": "Vensim"
+    },
+    {
+        "title": "Calculadora de Métodos Numéricos basada en Web",
+        "info": "Universidad Eafit, 2019",
+        "description": "Aplicación web en Python y JavaScript que proporcionaba una lista diversa de métodos numéricos, los cuales eran calculados y mostraban resultados en pantalla, y se graficaban cuando era necesario. Cada método se explicaba con instrucciones sobre cómo funciona y qué datos usar para que funcione.",
+        "technologies": "Python, Javascript, CSS, Firebase"
+    }],
+    "education": {
+        "title": "EDUCACIÓN",
+        "degree": "Ingeniero de Software",
+        "institution": "Universidad EAFIT",
+        "years": "2016 - 2022"
+    },
+    "certifications": [{
+        "title": "Fundamentos de Paralelismo en Arquitectura Intel",
+        "platform": "Coursera",
+        "year": "2020",
+        "duration": "85h",
+        "skills": [
+            "C++",
+            "Pruebas Unitarias",
+            "Estrategia",
+            "Ingeniería",
+            "Entrenamiento",
+            "Solución de Problemas",
+            "Arquitectura Intel",
+            "HPC",
+            "Análisis de Datos"
+        ]
+    },
+    {
+        "title": "Fundamentos de AWS",
+        "platform": "Coursera",
+        "year": "2020",
+        "duration": "25h",
+        "skills": [
+            "DevOps",
+            "CI/CD",
+            "AWS",
+            "Estrategia",
+            "Desarrollo web",
+            "Ingeniería",
+            "Entrenamiento",
+            "Solución de Problemas",
+            "Redes AWS",
+            "Seguridad AWS",
+            "Arquitectura de software"
+        ]
+    },
+    {
+        "title": "React: de cero a experto",
+        "platform": "Udemy",
+        "year": "2023",
+        "duration": "54h",
+        "skills": [
+            "React.js",
+            "Redux.js",
+            "Javascript",
+            "CSS",
+            "UX/UI",
+            "Jest",
+            "Pruebas Unitarias",
+            "Bootstrap",
+            "Express.js",
+            "MongoDB",
+            "Vite.js",
+            "Node.js",
+            "Estrategia",
+            "Desarrollo Web",
+            "Entrenamiento",
+            "Solución de Problemas"
+        ]
+    },
+    {
+        "title": "JavaScript Total",
+        "platform": "Udemy",
+        "year": "2023",
+        "duration": "26.5h",
+        "skills": [
+            "Javascript",
+            "CSS",
+            "UX/UI",
+            "Pruebas Unitarias",
+            "Desarrollo Web",
+            "Entrenamiento",
+            "Solución de Problemas"
+        ]
+    },
+    {
+        "title": "DevOps con Docker, Jenkins, Kubernetes, git, GitFlow CI y CD",
+        "platform": "Udemy",
+        "year": "2023",
+        "duration": "14h",
+        "skills": [
+            "DevOps",
+            "CI/CD",
+            "Firebase",
+            "Jenkins",
+            "Git",
+            "Estrategia",
+            "Desarrollo web",
+            "Kubernetes",
+            "Docker"
+        ]
+    },
+    {
+        "title": "UX/UI",
+        "platform": "Udemy",
+        "year": "2023",
+        "duration": "22.5h",
+        "skills": [
+            "Scrum",
+            "UX/UI",
+            "Figma",
+            "Desarrollo de Negocios",
+            "Estrategia",
+            "Desarrollo Web",
+            "Resolución de Problemas",
+            "Gestión de Proyectos"
+        ]
+    },
+    {
+        "title": "Python",
+        "platform": "Udemy",
+        "year": "2023",
+        "duration": "30.5h",
+        "skills": [
+            "Python",
+            "Flask",
+            "Django",
+            "Pruebas Unitarias",
+            "Desarrollo Web",
+            "Entrenamiento",
+            "Desarrollo de Negocios",
+            "Estrategia",
+            "Resolución de Problemas"
+        ]
+    },
+    {
+        "title": "Python y ChatGPT",
+        "platform": "Udemy",
+        "year": "2023",
+        "duration": "2h",
+        "skills": [
+            "Python",
+            "IA",
+            "ChatGPT",
+            "Estrategia"
+        ]
+    }],
+    "skills": {
+        "title": "HABILIDADES",
+        "skillsList": [{
+            "skill": "SCRUM",   
+            "level": "Alto"
+        },
+        {
+            "skill": "JavaScript",
+            "level": "Medio"
+        },
+        {
+            "skill": "Typescript",
+            "level": "Medio"
+        },
+        {
+            "skill": "CSS",
+            "level": "Medio"
+        },
+        {
+            "skill": "React",
+            "level": "Medio"
+        },
+        {
+            "skill": "Next.js",
+            "level": "Medio"
+        },
+        {
+            "skill": "Python",
+            "level": "Medio"
+        },
+        {
+            "skill": "WordPress",
+            "level": "Medio"
+        },
+        {
+            "skill": "UX/UI",   
+            "level": "Medio"
+        },
+        {
+            "skill": "AWS",
+            "level": "Medio"
+        },
+        {
+            "skill": "DevOps",
+            "level": "Medio"
+        },
+        {
+            "skill": "Mongo DB",
+            "level": "Medio"
+        },
+        {
+            "skill": "JEST",
+            "level": "Medio"
+        }
+    ]}
+}
