@@ -265,5 +265,15 @@
             "skill": "JEST",
             "level": "Medio"
         }
-    ]}
+    ]},
+    "cookiesConsent": {
+        "title": "Cookies",
+        "description": "Usamos cookies para mejorar tu experiencia. Puedes aceptar o rechazar.",
+        "accept": "Aceptar",
+        "reject": "Rechazar"
+    },
+    "languageSwitcher": {
+        "language": "Español",
+        "languageSwitcher": "Inglés"
+    }
 }
