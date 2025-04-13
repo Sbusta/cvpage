@@ -8,39 +8,40 @@ import { LuLanguages } from "react-icons/lu";
 import { useTranslations } from "next-intl";
 
 export function LanguageSwitcher() {
-  const router = useRouter();
-  const pathname = usePathname();
-  const t = useTranslations("languageSwitcher");
-  const currentLocale = pathname.split("/")[1] || "es";
-
-  const newLocale = currentLocale === "es" ? "en" : "es";
-  const [, startTransition] = useTransition();
-
-  const switchLanguage = () => {
-    let newPath;
-    if (pathname === "/") {
-      newPath = `/${newLocale}`;
-    } else if (pathname.startsWith("/es") || pathname.startsWith("/en")) {
-      newPath = pathname.replace(/^\/(es|en)/, `/${newLocale}`);
-    } else {
-      newPath = `/${newLocale}${pathname}`;
-    }
+    const t = useTranslations("languageSwitcher");
     
-    Cookies.set("locale", newLocale);
-    startTransition(() => {
-      router.push(newPath);
-      router.refresh();
-    });
-  };
+    const router = useRouter();
+    const pathname = usePathname();
 
-  return (
+    const currentLocale = pathname.split("/")[1] || "es";    
+    const newLocale = currentLocale === "es" ? "en" : "es";
+    const [, startTransition] = useTransition();
+    
+    const handleLocaleChange  = () => {
+        let newPath;
+        if (pathname === "/") {
+            newPath = `/${newLocale}`;
+        } else if (pathname.startsWith("/es") || pathname.startsWith("/en")) {
+            newPath = pathname.replace(/^\/(es|en)/, `/${newLocale}`);
+        } else {
+            newPath = `/${newLocale}${pathname}`;
+        }
+        
+        Cookies.set("locale", newLocale);
+        router.push(newPath);
+        startTransition(() => {
+        router.refresh();
+        });
+    };    
+
+    return (
     <Button
-      onPress={switchLanguage}
+      onPress={handleLocaleChange }
       className="text-sm"
       variant="light"
       startContent={<LuLanguages size={16} />}
     >
-      {currentLocale === "es" ? t("languageSwitcher") : t("languageSwitcher")}
+      {t("label")}
     </Button>
   );
 }

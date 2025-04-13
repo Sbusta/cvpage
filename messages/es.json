@@ -274,6 +274,6 @@
     },
     "languageSwitcher": {
         "language": "Español",
-        "languageSwitcher": "Inglés"
+        "label": "Inglés"
     }
 }
