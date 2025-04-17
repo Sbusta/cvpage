@@ -1,11 +1,11 @@
 import "@/styles/globals.css";
 import { ReactNode } from "react";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import clsx from "clsx";
 import { Providers } from "./providers"; // <- Aquí está tu ThemeProvider
 import { fontSans } from "@/config/fonts";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto({style: "normal", weight: "400", subsets: ["latin"]});
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (

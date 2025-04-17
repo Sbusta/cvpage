@@ -1,12 +1,20 @@
 {
-    "aboutMe": [{
-        "title": "SOBRE MÍ",
-        "description": "Desarrollador de software con alta adaptabilidad al trabajo en equipo, comprensión de los requisitos asignados para diseñar soluciones de software, investigador, responsable de establecer objetivos, cumplir logros y capaz de trabajar con o sin supervisión directa. Soy innovador y tengo facilidad para entender procesos de negocio, lo que me permite desarrollar aplicaciones con disposición para aprender. Soy disciplinado, y en mi tiempo libre toco el piano y a veces compongo mis propias canciones. También disfruto escuchar música, jugar tenis de mesa, ver series y películas, jugar videojuegos y juegos de rol como D&D."
+    "personalInfo":[{
+        "name": "Sebastián Bustamante",
+        "workTitle": "Ingeniero de Sistemas",
+        "location": "Medellín, Colombia",
+        "email": "sebasbustacar@gmail.com"
     }],
-    "workExperience": "EXPERIENCIA LABORAL",
+    "aboutMe": [{
+        "title": "Sobre Mí",
+        "experience":"+2 años de experiencia en front-end y +1 año de experiencia en Full-stack",
+        "description": "Con alta adaptabilidad al trabajo en equipo, comprensión de los requisitos asignados para diseñar soluciones de software, investigador, responsable de establecer objetivos, cumplir logros y capaz de trabajar con o sin supervisión directa.",
+        "description2": "Innovador y con facilidad para entender procesos de negocio, lo que me permite desarrollar aplicaciones con disposición para aprender, y en mi tiempo libre toco el piano y a veces compongo mis propias canciones, al igual que disfruto de escuchar música, jugar tenis de mesa, ver series y películas, jugar videojuegos y juegos de rol como D&D."
+    }],
+    "workExperience": "Experiencia Laboral",
     "workExperienceList": [{
         "company": "Talos Digital",
-        "position": "Desarrollador FrontEnd",
+        "position": "Desarrollador Front-End",
         "date": "Julio 2020 - Julio 2021",
         "location": "Medellín, Colombia",
         "description-1": "Desarrollé la aplicación web interna para el manual web corporativo como desarrollador FrontEnd donde brindé soporte en temas de UX y accesibilidad utilizando la metodología Scrum. Reporté al Scrum Master y mantuvimos reuniones semanales con el Product Owner.",
@@ -35,12 +43,12 @@
     },
     {
         "company": "Urbanik",
-        "position": "Desarrollador FullStack",
+        "position": "Desarrollador Full Stack",
         "date": "Enero 2024 - Noviembre 2024",
         "location": "Medellín, Colombia",
         "description-1": "Desarrollé la aplicación web Urbanik.co como desarrollador FrontEnd/FullStack y brindé soporte en temas de UX/UI y accesibilidad utilizando la metodología Scrum.",
-        "description-2": "Diseñé y desarrollé el sitio web convexorealestatelaw.com usando WordPress y Hostinger.",
-        "description-3": "Brindé consultoría personalizada a emprendedores como parte del proyecto de Iniciación Digital con la Cámara de Comercio y UNIMINUTO."
+        "description-2": "Brindé apoyo en la gestión de servicios en la nube, colaborando en la configuración, mantenimiento y optimización de la infraestructura cloud. Asimismo, participé en la definición y mejora de la arquitectura general del proyecto, aportando a la toma de decisiones técnicas y estructurales para asegurar escalabilidad y eficiencia.",
+        "description-3": "Colaboré en tareas de relaciones públicas, representando a la empresa en diferentes espacios y fortaleciendo su presencia externa. Además, participé en la gestión operativa, apoyando en la organización y toma de decisiones del día a día."
     },
     {
         "company": "Uniminuto",
@@ -49,7 +57,7 @@
         "location": "Medellín, Colombia",
         "description-1": "Brindé consultoría personalizada a emprendedores como parte del proyecto de Iniciación Digital con la Cámara de Comercio y UNIMINUTO."
     }],
-    "projectsAndResearch": "PROYECTOS E INVESTIGACIÓN",
+    "projectsAndResearch": "Proyectos e Investigación",
     "projectsAndResearchList": [{
         "title": "Investigación: Sistemas de Gamificación",
         "info": "Universidad Eafit, 2020",
@@ -69,7 +77,7 @@
         "technologies": "Python, Javascript, CSS, Firebase"
     }],
     "education": {
-        "title": "EDUCACIÓN",
+        "title": "Educación",
         "degree": "Ingeniero de Software",
         "institution": "Universidad EAFIT",
         "years": "2016 - 2022"
@@ -212,60 +220,43 @@
         ]
     }],
     "skills": {
-        "title": "HABILIDADES",
-        "skillsList": [{
-            "skill": "SCRUM",   
-            "level": "Alto"
-        },
-        {
-            "skill": "JavaScript",
-            "level": "Medio"
-        },
-        {
-            "skill": "Typescript",
-            "level": "Medio"
-        },
-        {
-            "skill": "CSS",
-            "level": "Medio"
-        },
-        {
-            "skill": "React",
-            "level": "Medio"
-        },
-        {
-            "skill": "Next.js",
-            "level": "Medio"
-        },
-        {
-            "skill": "Python",
-            "level": "Medio"
-        },
-        {
-            "skill": "WordPress",
-            "level": "Medio"
-        },
-        {
-            "skill": "UX/UI",   
-            "level": "Medio"
-        },
-        {
-            "skill": "AWS",
-            "level": "Medio"
-        },
-        {
-            "skill": "DevOps",
-            "level": "Medio"
-        },
-        {
-            "skill": "Mongo DB",
-            "level": "Medio"
-        },
-        {
-            "skill": "JEST",
-            "level": "Medio"
+        "title": "Habilidades",
+        "sectionTitle-1": "Front-End",
+        "sectionTitle-2": "Back-End",
+        "sectionTitle-3": "Herramientas",
+        "sectionTitle-4": "Otros",
+        "skillsList": {
+            "Html": "HTML",
+            "Css": "CSS",
+            "JavaScript": "JavaScript",
+            "Typescript": "Typescript",
+            "Tailwind": "TailwindCSS",
+            "React": "React",
+            "Nextjs": "Next.js",
+            "Figma": "Figma",
+
+            "Nodejs": "Node.js",
+            "Python": "Python",
+            "C++": "C++",
+            "WordPress": "WordPress",
+            "AWS": "AWS",
+            "Firebase": "Firebase",
+            "MongoDB": "Mongo DB",
+
+            "Git": "Git",
+            "GitHub": "GitHub",
+            "Terminal": "Terminal",
+            "Postman": "Postman",
+            "Bun": "Bun",
+            "Npm": "npm",
+            "Vscode": "VSCode",
+            "Jest": "JEST",
+            
+            "DevOps": "DevOps",
+            "Scrum": "Scrum",
+            "UX/UI": "UX/UI"
         }
-    ]},
+    },
     "cookiesConsent": {
         "title": "Cookies",
         "description": "Usamos cookies para mejorar tu experiencia. Puedes aceptar o rechazar.",

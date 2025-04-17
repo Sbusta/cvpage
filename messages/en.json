@@ -1,14 +1,23 @@
 {
-    "aboutMe":[{
-        "title": "ABOUT ME",
-        "description": "Software developer with high adaptability to teamwork, understanding of assigned requirements to design software solutions, investigative, responsible for setting objectives, fulfilling achievements, and able to work with or without direct supervision. I am innovative and have a facility to understand business processes, which allows me to develop applications with a willingness to learn. I am disciplined, and in my free time, I play the piano and sometimes compose my own songs. I also enjoy listening to music, playing table tennis, watching series and movies, playing video games, and role-playing games like D&D."
+    "personalInfo":[{
+        "name": "Sebastián Bustamante",
+        "workTitle": "Software Engineer",
+        "location": "Medellín, Colombia",
+        "email": "sebasbustacar@gmail.com"
     }],
-    "workExperience": "WORK EXPERIENCE",
+    "aboutMe":[{
+        "title": "About Me",
+        "experience": "+2 years of experience in front-end and over 1 year of experience in full-stack development.",
+        "description": "With high adaptability to teamwork, understanding of assigned requirements to design software solutions, investigative, responsible for setting objectives, fulfilling achievements, and able to work with or without direct supervision.",
+        "description2":"Innovative and have a facility to understand business processes, which allows me to develop applications with a willingness to learn. In my free time, I play the piano and sometimes compose my own songs also enjoy listening to music, playing table tennis, watching series and movies, playing video games, and role-playing games like D&D."
+        
+    }],
+    "workExperience": "Work Experience",
     "workExperienceList": [{
         "company": "Talos Digital",
-        "position": "FrontEnd Developer",
+        "position": "Front-End Developer",
         "date": "July 2020 - July 2021",
-        "location": "Medellín,Colombia",
+        "location": "Medellín, Colombia",
         "description-1": "Developed the internal web application for the corporate web manual as a FrontEnd developer where I provided support in UX and accessibility issues using the Scrum methodology. I reported to the Scrum Master and we held weekly meetings with the Product Owner.",
         "description-2": "Developed an internal application for the creation and management of forms in the HR department of the company where I provided support in UX, optimization, and data control using the Scrum methodology. I reported to the Scrum Master and we held daily meetings with the Product Owner."
     },
@@ -16,40 +25,40 @@
         "company": "Corales Acuarimántima",
         "position": "Web Developer",
         "date": "April 2023 - May 2023",
-        "location": "Medellín,Colombia",
+        "location": "Medellín, Colombia",
         "description-1": "Designed and developed the website Coralesacuarimantima.org using Wordpress, Spectra, and DreamHost. This is a platform to showcase the Corales Acuariamantima foundation, display their projects and activities, and able to receive donations to continue their research and preserve the area."
     },
     {
         "company": "Astrolab-Bio",
         "position": "Web Developer",
         "date": "Janury 2024 - May 2024",
-        "location": "Medellín,Colombia",
+        "location": "Medellín, Colombia",
         "description-1": "Designed and developed the website Astrolab-bio.com.co using WordPress, and Hostinger. This is a platform to showcase Astrolab Bio, display their projects and activities, and able to sell their products."
     },
     {
         "company": "Convexo",
         "position": "Web Developer",
         "date": "May 2024 - July 2024",
-        "location": "Medellín,Colombia",
+        "location": "Medellín, Colombia",
         "description-1": "Designed and developed the website convexorealestatelaw.com using WordPress and Hostinger. This platform showcases Convexo, displays its real estate projects, legal activities, and offers its services for sale."
     },
     {
         "company": "Urbanik",
-        "position": "FullStack Developer",
+        "position": "Full Stack Developer",
         "date": "January 2024 - November 2024",
-        "location": "Medellín,Colombia",
+        "location": "Medellín, Colombia",
         "description-1": "I developed the web application Urbanik.co as a FrontEnd/FullStack developer and provided support on UX/UI and accessibility matters using the Scrum methodology.",
-        "description-2": "Designed and developed the website convexorealestatelaw.com using WordPress and Hostinger.",
-        "description-3": "Provided personalized consulting to entrepreneurs as part of the Digital Initiation project with the Cámara de Comercio and UNIMINUTO."
+        "description-2": "I supported the management of cloud services, helping with the configuration, maintenance, and optimization of the cloud infrastructure. I also contributed to the overall project architecture, providing input on technical and structural decisions to ensure scalability and efficiency.",
+        "description-3": "I collaborated on public relations tasks, representing the company in various settings and helping strengthen its external presence. I also took part in operational management, supporting the organization and assisting in day-to-day decision-making."
     },
     {
         "company": "Uniminuto",
         "position": "IT Support Consultant",
         "date": "August 2024 - November 2024",
-        "location": "Medellín,Colombia",
+        "location": "Medellín, Colombia",
         "description-1": "Provided personalized consulting to entrepreneurs as part of the Digital Initiation project with the Cámara de Comercio and UNIMINUTO."
     }],
-    "projectsAndResearch": "PROJECTS AND RESEARCH",
+    "projectsAndResearch": "Projects and Research",
     "projectsAndResearchList": [{
         "title": "Research: Gamification Systems.",
         "info": "Universidad Eafit, 2020",
@@ -69,7 +78,7 @@
         "technologies": "Python, Javascript, CSS, Firebase"
     }],
     "education": {
-        "title": "EDUCATION",
+        "title": "Education",
         "degree": "Software Engineer",
         "institution": "Universidad EAFIT",
         "years": "2016 - 2022"
@@ -212,60 +221,43 @@
         ]
     }],
     "skills": {
-        "title": "SKILLS",
-        "skillsList": [{
-            "skill": "SCRUM",   
-            "level": "High"
-        },
-        {
-            "skill": "JavaScript",
-            "level": "Medium"
-        },
-        {
-            "skill": "Typescript",
-            "level": "Medium"
-        },
-        {
-            "skill": "CSS",
-            "level": "Medium"
-        },
-        {
-            "skill": "React",
-            "level": "Medium"
-        },
-        {
-            "skill": "Next.js",
-            "level": "Medium"
-        },
-        {
-            "skill": "Python",
-            "level": "Medium"
-        },
-        {
-            "skill": "WordPress",
-            "level": "Medium"
-        },
-        {
-            "skill": "UX/UI",   
-            "level": "Medium"
-        },
-        {
-            "skill": "AWS",
-            "level": "Medium"
-        },
-        {
-            "skill": "DevOps",
-            "level": "Medium"
-        },
-        {
-            "skill": "Mongo DB",
-            "level": "Medium"
-        },
-        {
-            "skill": "JEST",
-            "level": "Medium"
+        "title": "Skills",
+        "sectionTitle-1": "Front-End",
+        "sectionTitle-2": "Back-End",
+        "sectionTitle-3": "Tools",
+        "sectionTitle-4": "Others", 
+        "skillsList": {
+            "Html": "HTML",
+            "Css": "CSS",
+            "JavaScript": "JavaScript",
+            "Typescript": "Typescript",
+            "Tailwind": "TailwindCSS",
+            "React": "React",
+            "Nextjs": "Next.js",
+            "Figma": "Figma",
+
+            "Nodejs": "Node.js",
+            "Python": "Python",
+            "C++": "C++",
+            "WordPress": "WordPress",
+            "AWS": "AWS",
+            "Firebase": "Firebase",
+            "MongoDB": "Mongo DB",
+
+            "Git": "Git",
+            "GitHub": "GitHub",
+            "Terminal": "Terminal",
+            "Postman": "Postman",
+            "Bun": "Bun",
+            "Npm": "npm",
+            "Vscode": "VSCode",
+            "Jest": "JEST",
+            
+            "DevOps": "DevOps",
+            "Scrum": "Scrum",
+            "UX/UI": "UX/UI"
         }
-    ]},
+    },
     "cookiesConsent": {
         "title": "Cookies",
         "description": "We use cookies to improve your experience. You can accept or reject.",
