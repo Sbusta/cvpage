@@ -58,25 +58,37 @@
         "location": "Medellín, Colombia",
         "description-1": "Provided personalized consulting to entrepreneurs as part of the Digital Initiation project with the Cámara de Comercio and UNIMINUTO."
     }],
-    "projectsAndResearch": "Projects and Research",
-    "projectsAndResearchList": [{
-        "title": "Research: Gamification Systems.",
-        "info": "Universidad Eafit, 2020",
-        "description": "Conducted research on Gamification systems and techniques for user retention, adding a prediction system to the platform to recommend the appropriate technique and system for each user.",
-        "technologies": "Python, Javascript"
-    },
-    {
-        "title": "Research: Player behavior in microtransaction systems.",
-        "info": "Universidad Eafit, 2019",
-        "description": "Conducted research on the behavior of players in microtransaction systems to determine how users are affected and how scenarios where such systems are implemented work, using a simulation made with Vensim.",
-        "technologies": "Vensim"
-    },
-    {
-        "title": "Web-based Numerical Methods Calculator",
-        "info": "Universidad Eafit, 2019",
-        "description": "Python and JavaScript web application that provided a diverse list of numerical methods, which were calculated and displayed results onscreen, and graphed when necessary. Each method was explained with instructions on how it works and which data to use to make it work.",
-        "technologies": "Python, Javascript, CSS, Firebase"
-    }],
+    "projectsAndResearch":{ 
+        "title":"Projects and Research",
+        "projectsAndResearchList": [{
+            "title": "Pokedex Pokemon",
+            "type": "Research",
+            "info": "2021",
+            "description": "Web application in React and JavaScript that displayed a list of Pokémon and their stats, using the Pokémon API.",
+            "technologies": "React, Javascript, CSS"
+        },
+        {
+            "title": "Gamification Systems.",
+            "type": "Research",
+            "info": "Universidad Eafit, 2020",
+            "description": "Conducted research on Gamification systems and techniques for user retention, adding a prediction system to the platform to recommend the appropriate technique and system for each user.",
+            "technologies": "Python, Javascript"
+        },
+        {
+            "title": "Player behavior in microtransaction systems.",
+            "type": "Research",
+            "info": "Universidad Eafit, 2019",
+            "description": "Conducted research on the behavior of players in microtransaction systems to determine how users are affected and how scenarios where such systems are implemented work, using a simulation made with Vensim.",
+            "technologies": "Vensim"
+        },
+        {
+            "title": "Web-based Numerical Methods Calculator",
+            "type": "Project",
+            "info": "Universidad Eafit, 2019",
+            "description": "Python and JavaScript web application that provided a diverse list of numerical methods, which were calculated and displayed results onscreen, and graphed when necessary. Each method was explained with instructions on how it works and which data to use to make it work.",
+            "technologies": "Python, Javascript, CSS, Firebase"
+        }
+        ]},
     "education": {
         "title": "Education",
         "degree": "Software Engineer",
@@ -255,7 +267,9 @@
             
             "DevOps": "DevOps",
             "Scrum": "Scrum",
-            "UX/UI": "UX/UI"
+            "UX/UI": "UX/UI",
+            "Business":"Business Development"
+
         }
     },
     "cookiesConsent": {
@@ -265,7 +279,6 @@
         "reject": "Reject"
     },
     "languageSwitcher": {
-        "language": "English",
-        "label": "Spanish"
+        "label": "Español"
     }
 }

@@ -2,11 +2,12 @@
 import {
   Navbar as HeroUINavbar,
   NavbarContent,
-  NavbarMenuToggle,
   NavbarBrand,
   NavbarItem,
 } from "@heroui/navbar";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
 import NextLink from "next/link";
@@ -52,7 +53,8 @@ export const Navbar = () => {
             isIconOnly 
             href={siteConfig.links.github}
             variant="light"
-          >
+            className="hover:text-[#009c73] dark:hover:text-[#44b59b]"
+            >
             <FaGithub  className="size-7"/>
           </Button>
           <Button
@@ -61,20 +63,27 @@ export const Navbar = () => {
             isIconOnly 
             href={siteConfig.links.linkedin}
             variant="light"
+            className="hover:text-[#009c73] dark:hover:text-[#44b59b]"
           >
             <FaLinkedin  className="size-7"/>
+          </Button>
+          <Button
+            isExternal
+            as={Link}
+            isIconOnly 
+            href={siteConfig.links.email}
+            variant="light"
+            className="hover:text-[#009c73] dark:hover:text-[#44b59b]"
+          >
+            <MdEmail  className="size-7"/>
           </Button>
         </NavbarItem>
       </NavbarContent>
       
   {/* Mobile Navbar */}
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <Link isExternal aria-label="Github" href={siteConfig.links.github}>
-          <FaGithub  className="text-default-500" />
-        </Link>
         <ThemeSwitch />
         <LanguageSwitcher />
-        <NavbarMenuToggle />
       </NavbarContent>
     </HeroUINavbar>
   );

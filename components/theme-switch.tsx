@@ -72,9 +72,9 @@ export const ThemeSwitch: FC<ThemeSwitchProps> = ({
         })}
       >
         {!isSelected || isSSR ? (
-          <FaSun size={22} />
+          <FaSun size={22} className="hover:text-[#009c73] dark:hover:text-[#44b59b]"/>
         ) : (
-          <FaMoon size={22} />
+          <FaMoon size={22} className="hover:text-[#009c73] dark:hover:text-[#44b59b]"/>
         )}
       </div>
     </Component>

@@ -1,6 +1,6 @@
 // This is the main entry point for the application
-import { GlassBox } from "@/components/glassbox/glassbox";
 import { AboutMe } from "@/components/seccions/aboutMe";
+import { ProjectsAndResearch } from "@/components/seccions/projectsAndResearch";
 import { Skills } from "@/components/seccions/skills";
 import { WorkExperience } from "@/components/seccions/workExperience";
 
@@ -12,6 +12,7 @@ export default async function Home() {
     <AboutMe/>
     <WorkExperience/>
     <Skills/>
+    <ProjectsAndResearch/> 
   </>
   );
 }

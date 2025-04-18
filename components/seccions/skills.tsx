@@ -1,7 +1,7 @@
 "use client"
 
 import { useTranslations } from "next-intl";
-import { GlassBox } from "../glassbox/glassbox";
+import { GlassBox } from "../glassbox";
 import { Divider } from "../divider";
 
 import { FaAws, FaCss3Alt, FaFigma, FaGitAlt, FaGithubSquare, FaHtml5, FaInfinity, FaNodeJs, FaNpm, FaPython, FaReact, FaRegUserCircle, FaWordpress } from "react-icons/fa";
@@ -11,7 +11,7 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { BiLogoFirebase } from "react-icons/bi";
 import { VscVscode } from "react-icons/vsc";
 import { DiScrum } from "react-icons/di";
-
+import { PiProjectorScreenChart } from "react-icons/pi";
 
 export const Skills = () => {
   const t = useTranslations();
@@ -22,7 +22,7 @@ export const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-1")}</h3>
-                <Divider className="my-5 opacity-30" />
+                <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
                     <div className="flex flex-col items-center justify-center gap-2">
                         <FaHtml5 size={35} />
@@ -61,7 +61,7 @@ export const Skills = () => {
 
             <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-2")}</h3>
-                <Divider className="my-5 opacity-30" />
+                <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
                     <div className="flex flex-col items-center justify-center gap-2">
                         <FaNodeJs size={35} />
@@ -96,7 +96,7 @@ export const Skills = () => {
 
             <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-3")}</h3>
-                <Divider className="my-5 opacity-30" />
+                <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
                     <div className="flex flex-col items-center justify-center gap-2">
                         <FaGitAlt size={35} />
@@ -135,7 +135,7 @@ export const Skills = () => {
 
             <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-4")}</h3>
-                <Divider className="my-5 opacity-30" />
+                <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
                     <div className="flex flex-col items-center justify-center gap-2">
                         <FaRegUserCircle size={35} />
@@ -148,6 +148,10 @@ export const Skills = () => {
                     <div className="flex flex-col items-center justify-center gap-2">
                         <FaInfinity size={35} />
                         <p className="text-sm">{t("skills.skillsList.DevOps")}</p>
+                    </div>
+                    <div className="flex flex-col items-center justify-center gap-2">
+                        <PiProjectorScreenChart size={35} />
+                        <p className="text-sm text-center">{t("skills.skillsList.Business")}</p>
                     </div>
                 </div>
             </GlassBox>

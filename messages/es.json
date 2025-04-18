@@ -57,25 +57,38 @@
         "location": "Medellín, Colombia",
         "description-1": "Brindé consultoría personalizada a emprendedores como parte del proyecto de Iniciación Digital con la Cámara de Comercio y UNIMINUTO."
     }],
-    "projectsAndResearch": "Proyectos e Investigación",
-    "projectsAndResearchList": [{
-        "title": "Investigación: Sistemas de Gamificación",
-        "info": "Universidad Eafit, 2020",
-        "description": "Realicé investigación sobre sistemas y técnicas de Gamificación para la retención de usuarios, agregando un sistema de predicción a la plataforma para recomendar la técnica y sistema apropiado para cada usuario.",
-        "technologies": "Python, Javascript"
-    },
-    {
-        "title": "Investigación: Comportamiento del jugador en sistemas de microtransacciones",
-        "info": "Universidad Eafit, 2019",
-        "description": "Realicé investigación sobre el comportamiento de los jugadores en sistemas de microtransacciones para determinar cómo se ven afectados los usuarios y cómo funcionan los escenarios donde se implementan dichos sistemas, utilizando una simulación hecha con Vensim.",
-        "technologies": "Vensim"
-    },
-    {
-        "title": "Calculadora de Métodos Numéricos basada en Web",
-        "info": "Universidad Eafit, 2019",
-        "description": "Aplicación web en Python y JavaScript que proporcionaba una lista diversa de métodos numéricos, los cuales eran calculados y mostraban resultados en pantalla, y se graficaban cuando era necesario. Cada método se explicaba con instrucciones sobre cómo funciona y qué datos usar para que funcione.",
-        "technologies": "Python, Javascript, CSS, Firebase"
-    }],
+    "projectsAndResearch":{
+        "title": "Proyectos e Investigación",
+        "projectsAndResearchList": [{
+            "title": "Pokedex Pokemon",
+            "type": "Investigación",
+            "info": "2021",
+            "description": "Aplicación web en react y javascript que mostraba una lista de pokemones y sus estadísticas, utilizando la API de Pokemon.",
+            "technologies": "React, Javascript, CSS"
+        },
+        {
+            "title": "Sistemas de Gamificación",
+            "type": "Investigación",
+            "info": "Universidad Eafit, 2020",
+            "description": "Realicé investigación sobre sistemas y técnicas de Gamificación para la retención de usuarios, agregando un sistema de predicción a la plataforma para recomendar la técnica y sistema apropiado para cada usuario.",
+            "technologies": "Python, Javascript"
+        },
+        {
+            "title": "Comportamiento del jugador en sistemas de microtransacciones",
+            "type": "Investigación",
+            "info": "Universidad Eafit, 2019",
+            "description": "Realicé investigación sobre el comportamiento de los jugadores en sistemas de microtransacciones para determinar cómo se ven afectados los usuarios y cómo funcionan los escenarios donde se implementan dichos sistemas, utilizando una simulación hecha con Vensim.",
+            "technologies": "Vensim"
+        },
+        {
+            "title": "Calculadora de Métodos Numéricos basada en Web",
+            "type": "Proyecto",
+            "info": "Universidad Eafit, 2019",
+            "description": "Aplicación web en Python y JavaScript que proporcionaba una lista diversa de métodos numéricos, los cuales eran calculados y mostraban resultados en pantalla, y se graficaban cuando era necesario. Cada método se explicaba con instrucciones sobre cómo funciona y qué datos usar para que funcione.",
+            "technologies": "Python, Javascript, CSS, Firebase"
+        }
+        ]},
+    
     "education": {
         "title": "Educación",
         "degree": "Ingeniero de Software",
@@ -254,7 +267,8 @@
             
             "DevOps": "DevOps",
             "Scrum": "Scrum",
-            "UX/UI": "UX/UI"
+            "UX/UI": "UX/UI",
+            "Business":" Desarrollo de Negocios"
         }
     },
     "cookiesConsent": {
@@ -264,7 +278,6 @@
         "reject": "Rechazar"
     },
     "languageSwitcher": {
-        "language": "Español",
-        "label": "Inglés"
+        "label": "English"
     }
 }

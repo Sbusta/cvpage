@@ -7,7 +7,10 @@ import { Navbar } from "@/components/navbar";
 import { siteConfig } from "@/config/site";
 import { routing } from "@/i18n/routing";
 import CookiesConsent from "@/components/CookiesConsent";
+import { Button } from "@heroui/button";
 import { Link } from "@heroui/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 export const metadata = {
   title: {
@@ -42,13 +45,38 @@ export default async function LocaleLayout({
         <main className="sebaslight dark:sebasdark container mx-auto max-w-7xl pt-4 px-6 flex-grow">
           {children}
         </main>
-        <footer className="w-full flex items-center justify-center py-3 gap-2">
-          <p className="text-default-600">Powered by</p>
-          <p className="">HeroUI,</p>
-          <p className="">Next.js &</p>
-          <p className="">Tailwind</p>
+        <footer className="w-full flex items-center justify-center pt-3 pb-6 gap-2 mt-5">
+            <Button
+              isExternal
+              as={Link}
+              isIconOnly 
+              href={siteConfig.links.github}
+              variant="light"
+              className="hover:text-[#009c73] dark:hover:text-[#44b59b]"
+              >
+              <FaGithub className="size-7"/>
+            </Button>
+            <Button
+              isExternal
+              as={Link}
+              isIconOnly 
+              href={siteConfig.links.linkedin}
+              variant="light"
+              className="hover:text-[#009c73] dark:hover:text-[#44b59b]"
+            >
+              <FaLinkedin className="size-7"/>
+            </Button>
+            <Button
+              isExternal
+              as={Link}
+              isIconOnly 
+              href={siteConfig.links.email}
+              variant="light"
+              className="hover:text-[#009c73] dark:hover:text-[#44b59b]"
+            >
+              <MdEmail className="size-7"/>
+            </Button>
         </footer>
-        <CookiesConsent />
       </div>
     </NextIntlClientProvider>
   );

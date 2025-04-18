@@ -37,7 +37,7 @@ export function LanguageSwitcher() {
     return (
     <Button
       onPress={handleLocaleChange }
-      className="text-sm"
+      className="text-sm hover:text-[#009c73] dark:hover:text-[#44b59b]"
       variant="light"
       startContent={<LuLanguages size={16} />}
     >

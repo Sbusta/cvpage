@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { MdOutlineWorkHistory } from "react-icons/md";
 import { TbWorldShare } from "react-icons/tb";
 import { Divider } from "../divider";
-import { GlassBox } from "../glassbox/glassbox";
+import { GlassBox } from "../glassbox";
 
 export const WorkExperience = () => {
   const t = useTranslations();
