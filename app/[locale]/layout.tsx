@@ -40,7 +40,7 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
-      <div className="relative md:bg-[url('@/public/blobWhite.webp')] dark:md:bg-[url('@/public/blobDark.webp')] bg-[url('@/public/blobWhiteM.webp')] dark:bg-[url('@/public/blobDarkM.webp')] bg-cover bg-repeat-y bg-top min-h-screen w-full flex flex-col items-center justify-center">
+      <div className="relative md:bg-[url('/public/blobWhite.webp')] dark:md:bg-[url('/public/blobDark.webp')] bg-[url('/public/blobWhiteM.webp')] dark:bg-[url('/public/blobDarkM.webp')] bg-cover bg-repeat-y bg-top min-h-screen w-full flex flex-col items-center justify-center">
         <Navbar />
         <main className="sebaslight dark:sebasdark container mx-auto max-w-7xl pt-4 px-6 flex-grow">
           {children}
