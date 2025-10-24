@@ -1,7 +1,6 @@
 "use client"
 
 import { useTranslations } from "next-intl";
-import { GlassBox } from "../glassbox";
 import { Divider } from "../divider";
 
 import { FaAws, FaCss3Alt, FaFigma, FaGitAlt, FaGithubSquare, FaHtml5, FaInfinity, FaNodeJs, FaNpm, FaPython, FaReact, FaRegUserCircle, FaWordpress } from "react-icons/fa";
@@ -12,15 +11,16 @@ import { BiLogoFirebase } from "react-icons/bi";
 import { VscVscode } from "react-icons/vsc";
 import { DiScrum } from "react-icons/di";
 import { PiProjectorScreenChart } from "react-icons/pi";
+import { NeumBox } from "../neumbox";
 
 export const Skills = () => {
   const t = useTranslations();
   return(
-    <GlassBox className="mt-6 p-5 md:p-10" blur="3" opacity="1" bgcolor="3">
+    <NeumBox className="p-5 mb-5 mt-8 md:p-10" style="hover">
         <h2 className="text-2xl font-bold">{t("skills.title")}</h2>
         <Divider className="mb-7 opacity-30" />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
+            <NeumBox className="gap-5 p-5 md:p-10" style="neon">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-1")}</h3>
                 <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
@@ -57,9 +57,9 @@ export const Skills = () => {
                         <p className="text-sm">{t("skills.skillsList.Figma")}</p>
                     </div>
                 </div>
-            </GlassBox>
+            </NeumBox>
 
-            <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
+            <NeumBox className="gap-5 p-5 md:p-10" style="neon">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-2")}</h3>
                 <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
@@ -92,9 +92,9 @@ export const Skills = () => {
                         <p className="text-sm">{t("skills.skillsList.MongoDB")}</p>
                     </div>
                 </div>
-            </GlassBox>
+            </NeumBox>
 
-            <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
+            <NeumBox className="gap-5 p-5 md:p-10" style="neon">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-3")}</h3>
                 <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
@@ -131,9 +131,9 @@ export const Skills = () => {
                         <p className="text-sm">{t("skills.skillsList.Jest")}</p>
                     </div>
                 </div>
-            </GlassBox>
+            </NeumBox>
 
-            <GlassBox className="gap-5 p-5 md:p-10" blur="0" opacity="0" bgcolor="0">
+            <NeumBox className="gap-5 p-5 md:p-10" style="neon">
                 <h3 className="text-xl font-bold">{t("skills.sectionTitle-4")}</h3>
                 <Divider className="mb-5 opacity-30" />
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
@@ -154,8 +154,8 @@ export const Skills = () => {
                         <p className="text-sm text-center">{t("skills.skillsList.Business")}</p>
                     </div>
                 </div>
-            </GlassBox>
+            </NeumBox>
         </div>
-    </GlassBox>
+    </NeumBox>
   )
 }

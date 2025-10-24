@@ -9,21 +9,23 @@ import { Link } from "@heroui/link";
 import { siteConfig } from "@/config/site";
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { NeumBox } from "../neumbox";
 
 export const AboutMe = () => {
   const t = useTranslations();
 
     return (
-        <GlassBox blur="3" opacity="1" bgcolor="3" className="flex flex-col sm:flex-row items-center justify-evenly gap-2 mb-5 p-6">
-            <div className="flex flex-col items-center justify-center">
-                <Image
-                    isBlurred
-                    alt="Sebastian Bustamante photo"
-                    className="mb-5"
-                    src="/images/photo.webp"
-                    radius="full"
-                    width={175}
-                />
+        <NeumBox style="hover" className="flex flex-col sm:flex-row items-center justify-evenly gap-2 mb-5 p-6">
+            <div className="flex flex-col items-center justify-center ">
+                <div className="mb-5 p-2 rounded-2xl bg-gray-200 dark:bg-gray-700 shadow-lg">
+                    <Image
+                        alt="Sebastian Bustamante photo"
+                        className=""
+                        src="/images/photo.webp"
+                        radius="lg"
+                        width={175}
+                    />
+                </div>
                 <h1 className="text-3xl text-center text-primary-400 font-bold">{t("personalInfo.0.name")}</h1>
                 <p className="text-xl max-w-2xl">{t("personalInfo.0.workTitle")}</p>
                 <p className="text-sm max-w-2xl opacity-75">{t("personalInfo.0.location")}</p>
@@ -81,7 +83,7 @@ export const AboutMe = () => {
                     <p className="text-md max-w-2xl">{t("aboutMe.0.description2")}</p>
                 </div>
             </div>
-        </GlassBox>
+        </NeumBox>
     )
     
 }
