@@ -5,15 +5,14 @@ import { useTranslations } from "next-intl";
 import { MdOutlineWorkHistory } from "react-icons/md";
 import { TbWorldShare } from "react-icons/tb";
 import { Divider } from "../divider";
-import { GlassBox } from "../glassbox";
+import { NeumBox } from "../neumbox";
 
 export const WorkExperience = () => {
   const t = useTranslations();
   return (
-    <GlassBox blur="3" className="flex flex-col justify-evenly p-8 md:p-16 mt-8">
+    <NeumBox style="hover" className="flex flex-col justify-evenly mb-5 p-8 md:p-16 mt-8">
       <h2 className="text-2xl font-bold"> {t("workExperience")} </h2>
-      <Divider className="opacity-30 mb-8"/>
-      
+      <Divider className="opacity-30 mb-8"/>      
       <ol className="relative border-s border-black dark:border-primary-900 ">                  
         <li className="mb-10 ms-6">            
           <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-4 ring-primary-600 ring-opacity-30 bg-primary dark:bg-primary-400">
@@ -152,6 +151,6 @@ export const WorkExperience = () => {
           </div>
         </li>
       </ol>
-    </GlassBox>
+    </NeumBox>
   )
 }

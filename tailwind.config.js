@@ -7,6 +7,7 @@ const config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
+
   theme: {
     extend: {
       fontFamily: {
@@ -15,6 +16,7 @@ const config = {
       },
     },
   },
+  
   darkMode: "class",
   plugins: [heroui({
     themes: {
